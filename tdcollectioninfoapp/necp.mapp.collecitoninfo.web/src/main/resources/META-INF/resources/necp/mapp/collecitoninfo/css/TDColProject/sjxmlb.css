@@ -1,0 +1,134 @@
+
+/****controlCss****/
+/*ctrlInfo_114c9364-15f6-4439-8bf5-b884fe695812_页面工具栏_ctrlInfo*/
+.navbar-fixed-bottom {
+    position: fixed!important;
+}
+.selectNum {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    min-height: auto;
+}
+.selectNum .text-warning {
+    margin: 0 5px;
+}
+/****controlCss****/
+        .sjxmlb__0 {
+            width: auto;
+		 min-width: 1024px;
+		
+        }
+        
+
+        .sjxmlb__1 {
+            min-height: 768px;
+		 width: 100%;
+		 min-width: 1024px;
+		 overflow: visible;
+		 position: relative;
+		 height: 100%;
+		
+        }
+        
+
+        .sjxmlb__2 {
+            display: inline-block;
+		 width: 100%;
+		 height: auto;
+		 overflow: visible;
+		 position: relative;
+		
+        }
+        
+
+        .sjxmlb__3 {
+            text-align: right;
+		
+        }
+        
+
+        .sjxmlb__4 {
+            text-overflow: ellipsis;
+		line-height:34px
+        }
+        
+
+        .sjxmlb__5 {
+            width:100%
+        }
+        
+
+        .sjxmlb__6 {
+            overflow: visible;
+		 position: relative;
+		 text-align: center;
+		
+        }
+        
+
+        .sjxmlb__7 {
+            min-height: 200px;
+		 overflow: visible;
+		 position: relative;
+		
+        }
+        
+
+        .sjxmlb__8 {
+            height: 216px;
+		 overflow-y: auto;
+		
+        }
+        
+
+        .sjxmlb__9 {
+            width: 100%;
+		
+        }
+        
+
+        .sjxmlb__10 {
+            border-top: none;
+		 border-bottom: 1px solid rgb(221, 221, 221);
+		
+        }
+        
+
+        .sjxmlb__11 {
+            padding: 0px;
+		 line-height: 35px;
+		 display: flex;
+		 flex-direction: row-reverse;
+		 align-items: center;
+		
+        }
+        
+
+        .sjxmlb__12 {
+            color: rgb(206, 206, 206);
+		
+        }
+        
+
+        .sjxmlb__13 {
+            width: 55px;
+		 height: 24px;
+		
+        }
+        
+
+        .sjxmlb__14 {
+            min-height: 0px;
+		
+        }
+        
+
+        .sjxmlb__15 {
+            overflow: visible;
+		 position: relative;
+		 text-align: right;
+		 padding-right: 10px;
+		
+        }
+        

@@ -1,0 +1,68 @@
+
+/****controlCss****/
+/*ctrlInfo_f0071271-1baa-4e09-837d-ae479bf969d2_带副标题_ctrlInfo*/
+.pageTopTitle > small.pull-left {
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+/****controlCss****/
+/****controlCss****/
+/*ctrlInfo_114c9364-15f6-4439-8bf5-b884fe695812_页面工具栏_ctrlInfo*/
+.navbar-fixed-bottom {
+    position: fixed!important;
+}
+.selectNum {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    min-height: auto;
+}
+.selectNum .text-warning {
+    margin: 0 5px;
+}
+/****controlCss****/
+        .xsxmlb__0 {
+            width: auto;
+		 min-width: 1024px;
+		
+        }
+        
+
+        .xsxmlb__1 {
+            min-height: 768px;
+		 width: 100%;
+		 min-width: 1024px;
+		 overflow: visible;
+		 position: relative;
+		 height: 100%;
+		
+        }
+        
+
+        .xsxmlb__2 {
+            min-height: 200px;
+		 overflow: visible;
+		 position: relative;
+		
+        }
+        
+
+        .xsxmlb__3 {
+            height: 200px;
+		 overflow-y: auto;
+		
+        }
+        
+
+        .xsxmlb__4 {
+            width: 100%;
+		
+        }
+        
+
+        .xsxmlb__5 {
+            min-height: 0px;
+		
+        }
+        

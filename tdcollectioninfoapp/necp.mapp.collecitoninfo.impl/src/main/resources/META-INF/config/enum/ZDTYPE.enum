@@ -1,0 +1,32 @@
+{
+   "jcls":"com.ygsoft.necp.component.genentity.meta.domain.model.EnumEntityVO",
+   "caption":"字段类型",
+   "className":"ZDTYPE",
+   "domainId":"337585c9cd5d49b6ad9c898623ce6d47",
+   "enumItems":
+   [
+      {
+         "jcls":"com.ygsoft.necp.component.genentity.meta.domain.model.EnumItemVO",
+         "bizState":0,
+         "caption":"无",
+         "enumId":"com.ygsoft.necp.mapp.topdesign.collecitoninfo.service.types.ZDTYPE",
+         "gid":"73da2677d265ce684bd80cdda97c3a1b",
+         "modelState":0,
+         "name":"DEFAULT",
+         "sort":1
+      },
+      {
+         "jcls":"com.ygsoft.necp.component.genentity.meta.domain.model.EnumItemVO",
+         "bizState":0,
+         "caption":"下拉框",
+         "enumId":"com.ygsoft.necp.mapp.topdesign.collecitoninfo.service.types.ZDTYPE",
+         "gid":"2ee9ca4b5bd49e15400f5de4af20cde1",
+         "modelState":0,
+         "name":"SELECTOR",
+         "sort":2
+      }
+
+   ],
+   "gid":"com.ygsoft.necp.mapp.topdesign.collecitoninfo.service.types.ZDTYPE",
+   "modelState":0
+}

@@ -1,0 +1,57 @@
+apiVersion: v1
+kind: List
+
+items:   
+- apiVersion: extensions/v1beta1
+  kind: Deployment
+  metadata:
+    name: ecp-demo
+    labels: 
+      component: springboot
+      system: ecp-demo
+  spec:  
+    replicas: 1
+    template: 
+      metadata: 
+        labels: 
+          component: springboot
+          system: ecp-demo
+      spec: 
+        containers: 
+        - name: ecp-demo-app
+          image: dockerhub.ygsoft.com:5000/ecpdemo:latest
+          ports: 
+          - name: plus-app
+            containerPort: 8080
+              
+- apiVersion: v1
+  kind: Service
+  metadata:
+    name: ecp-demo-app
+    labels:
+      component: nw-service
+      system: ecp-demo
+  spec:
+    type: NodePort
+    ports:
+    - port: 8080
+      protocol: TCP
+      targetPort: 8080
+    selector: 
+      component: springboot
+      system: ecp-demo
+ 
+- apiVersion: extensions/v1beta1
+  kind: Ingress
+  metadata:
+    name: ecp-demo-app-sr
+    labels:
+      system: ecp-demo
+  spec:
+    rules:
+    - host: ecp.demo.ygcloud.com
+      http:
+        paths:
+        - backend:
+            serviceName: ecp-demo-app
+            servicePort: 8080

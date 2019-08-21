@@ -1,0 +1,32 @@
+{
+   "jcls":"com.ygsoft.necp.component.genentity.meta.domain.model.EnumEntityVO",
+   "caption":"是否",
+   "className":"SFTYPE",
+   "domainId":"337585c9cd5d49b6ad9c898623ce6d47",
+   "enumItems":
+   [
+      {
+         "jcls":"com.ygsoft.necp.component.genentity.meta.domain.model.EnumItemVO",
+         "bizState":0,
+         "caption":"否",
+         "enumId":"com.ygsoft.necp.mapp.topdesign.collecitoninfo.service.types.SFTYPE",
+         "gid":"ac194fa260ab71cc432edfa861adb8fd",
+         "modelState":0,
+         "name":"NO",
+         "sort":1
+      },
+      {
+         "jcls":"com.ygsoft.necp.component.genentity.meta.domain.model.EnumItemVO",
+         "bizState":0,
+         "caption":"是",
+         "enumId":"com.ygsoft.necp.mapp.topdesign.collecitoninfo.service.types.SFTYPE",
+         "gid":"ac86148e192c4d6b8baf5bb78cc656c2",
+         "modelState":0,
+         "name":"YES",
+         "sort":2
+      }
+
+   ],
+   "gid":"com.ygsoft.necp.mapp.topdesign.collecitoninfo.service.types.SFTYPE",
+   "modelState":0
+}
