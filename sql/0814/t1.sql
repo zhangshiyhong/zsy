@@ -1,0 +1,18 @@
+INSERT INTO `t1` VALUES (1, '总账管理', '总账项目组', '吴健', '吴健');
+INSERT INTO `t1` VALUES (2, '报表管理', '报表项目组', '蔡志冀', '蔡志冀');
+INSERT INTO `t1` VALUES (3, '合并抵销', '合并抵销项目组', '叶树强', '叶树强');
+INSERT INTO `t1` VALUES (4, '成本管理', '成本管理项目组', '刘峰', '刘峰');
+INSERT INTO `t1` VALUES (5, '预算执行控制', '预算执行控制项目组', '徐卫涛', '徐卫涛');
+INSERT INTO `t1` VALUES (6, '预算编制', '预算多维编制项目组', '蔡爱平', '蔡爱平');
+INSERT INTO `t1` VALUES (7, '资金结算', '支付结算项目组', '丁大勇', '农斌');
+INSERT INTO `t1` VALUES (8, '投融资管理', '投融资项目组', '李棉', '李棉');
+INSERT INTO `t1` VALUES (9, '电价管理', '电费结算项目组', '王国安', '胡岩松');
+INSERT INTO `t1` VALUES (10, '税务管理', '税务管理项目组', '李鹏6', '李鹏6');
+INSERT INTO `t1` VALUES (11, '供应链管理', '智能物资项目组', '陈豪5', '陈豪5');
+INSERT INTO `t1` VALUES (12, '资产管理', '资产价值项目组', '田志亮', '田志亮');
+INSERT INTO `t1` VALUES (13, '产权管理', '产权管理项目组', '周卫卫', '周卫卫');
+INSERT INTO `t1` VALUES (14, '内容管理', 'YG ECM 项目组', '肖云', '肖云');
+INSERT INTO `t1` VALUES (15, '基建管控', '工程项目项目组', '彭光', '彭光');
+INSERT INTO `t1` VALUES (16, '应收应付', '应收应付项目组', '陈凯', '陈凯');
+INSERT INTO `t1` VALUES (17, '共享服务', '共享应用项目组', '成运来', '成运来');
+INSERT INTO `t1` VALUES (18, '资金监控', '资金监控项目组', '付俊', '付俊');
